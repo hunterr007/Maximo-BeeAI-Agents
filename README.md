@@ -27,10 +27,15 @@ podman machine list  #Verify the machine is running and set as default
 ```
 
 ### Clone Bee-Stack
+```
 git clone https://github.com/i-am-bee/bee-stack.git
 cd bee-stack
 Start Bee-Stack- ./bee-stack.sh start --runtime=podman
 Stop Bee-Stack- ./bee-stack.sh stop --runtime=podman
 Clean Bee-Stack- ./bee-stack.sh clea  --runtime=podman
-
-
+```
+### Bee-Stack Configuration
+- Create Agent
+- Create Tool using Python
+- Remove all other tools and add created tool
+- Save Agent

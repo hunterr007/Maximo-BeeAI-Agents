@@ -3,10 +3,10 @@ import requests
 from urllib.parse import quote
 
 def fetch_maximo_assets(query_string: str) -> str:
-    base_maximo_url = "https://maximo.eam360.com/maximo/api/os/mxasset"
+    base_maximo_url = "https://<MAXIMO_URL>/maximo/api/os/mxasset"
     headers = {
         "Content-Type": "application/json",
-        "apikey": "rpqsm7nlu25bnj4njh67ico9o6165dfsn93n2g90",
+        "apikey": <MAXIMO_API_KEY>,
         "Accept": "application/json"
     }
     params = {

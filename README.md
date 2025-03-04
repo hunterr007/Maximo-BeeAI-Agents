@@ -35,6 +35,7 @@ Stop Bee-Stack- ./bee-stack.sh stop --runtime=podman
 Clean Bee-Stack- ./bee-stack.sh clea  --runtime=podman
 ```
 ### Bee-Stack Configuration
+- bee-ui: http://localhost:3000
 - Create Agent
 - Create Tool using Python
 - Remove all other tools and add created tool

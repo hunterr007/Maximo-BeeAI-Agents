@@ -1,5 +1,5 @@
 # Maximo-BeeAI-Agents
-Working with BeeAI Agent to work with Maximo data using Bee-Stack
+Working with BeeAI Agent to work with Maximo data using Bee-Stack.
 
 GenAI is revolutionizing the world, transitioning from concept to reality, with hashtag#AIAgents leading the way ☘️ 
 ❓ Can we use AI Agents with Maximo? 

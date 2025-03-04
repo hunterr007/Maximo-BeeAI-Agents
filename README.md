@@ -26,6 +26,11 @@ podman machine Start
 podman machine list  #Verify the machine is running and set as default
 ```
 
+### Setup Watsonx.ai
+- Open Watsonx.ai and create project.
+- Choose Foundational Model and select LLM.
+- For project create API Key.
+
 ### Clone Bee-Stack
 ```
 git clone https://github.com/i-am-bee/bee-stack.git

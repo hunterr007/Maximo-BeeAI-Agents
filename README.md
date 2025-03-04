@@ -19,11 +19,12 @@ This [video](https://www.youtube.com/watch?v=rrgGYyaANbI) unveils the potential,
 
 ### Setup Podman
 If running in Podman, then machine should have root privilege. To Setup Podman Machine-
-
+```
 podman machine init
 podman machine set --rootful=true
 podman machine Start
 podman machine list  #Verify the machine is running and set as default
+```
 
 ### Clone Bee-Stack
 git clone https://github.com/i-am-bee/bee-stack.git

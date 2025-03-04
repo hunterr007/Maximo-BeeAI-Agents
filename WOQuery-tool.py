@@ -4,10 +4,10 @@ from urllib.parse import quote
 from datetime import datetime
 
 def fetch_maximo_workorder(query_string: str) -> str:
-    base_maximo_url = "https://maximo.eam360.com/maximo/api/os/MXWODETAIL"
+    base_maximo_url = "<MAXIMO_URL>/api/os/MXWODETAIL"
     headers = {
         "Content-Type": "application/json",
-        "apikey": "rpqsm7nlu25bnj4njh67ico9o6165dfsn93n2g90",
+        "apikey": <MAXIMO_API_KEY,
         "Accept": "application/json"
     }
     params = {
